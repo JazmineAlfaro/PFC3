@@ -1,6 +1,25 @@
 # PFC3
 
-## Descripción de los programas y la aplicación:
+## 1. Configuración del proyecto:
+
+### Establecer la ruta al Lumin SDK:
+1. Ir a Editar> Preferencias (Windows) o Unity> Preferencias (macOS). Se abre el cuadro de diálogo Preferencias.
+
+![](README/Tutorial1.png)
+
+2. En el cuadro de diálogo Preferencias, haga clic en Herramientas externas.
+
+![](README/Tutorial2.png)
+
+3. En Herramientas externas para Lumin SDK, haga clic en Examinar y luego navegue y seleccione la carpeta de la versión de Lumin SDK, por ejemplo C:/Users/jazmi/MagicLeap/mlsdk/v0.25.0.
+
+![](README/Tutorial3.png)
+
+Para mayor información acceder al siguiente enlace:
+
+https://developer.magicleap.com/en-us/learn/guides/manual-unity-project-setup-0-24-1
+
+## 2. Descripción de los programas y la aplicación:
 
 ### DeviceCamera
 
@@ -19,7 +38,7 @@ Este programa se utilizará en una computadora para recibir las imágenes necesa
 Se conecta con la aplicación DeviceCamera. 
 
 
-## Comunicación entre los programas y la aplicación:
+## 3. Comunicación entre los programas y la aplicación:
 
 La aplicación DeviceCamera es el servidor que se encarga de enviar las imágenes (Images) y si se tomó una foto para colocar el rastro en la escena (Magic Leap AR), ambos clientes.
 Los programas y la aplicación se comunicarán a través del protocolo TCP que requerirá que se definan las IPs y los puertos a utilizar.
@@ -47,6 +66,4 @@ GameObject Socket Client AR: Este se comunica con el programa DeviceCamera, con 
 GameObject Socket Client Images: Este se comunica con el programa DeviceCamera, con el GameObject Socket Server Images.
 
 ![](README/Images1.png)
-
-
 
