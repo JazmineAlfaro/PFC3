@@ -2,12 +2,14 @@
 
 # Índice
 - [1. Configuración del proyecto](#1-configuración-del-proyecto)
+  - [Establecer la ruta al Lumin SDK](###establecer-la-ruta-al-lumin-sdk)
+  
 - [2. Descripción de los programas y la aplicación](#2-descripción-de-los-programas-y-la-aplicación)
 - [3. Comunicación entre los programas y la aplicación](#3-comunicación-entre-los-programas-y-la-aplicación)
 
 
-# 1 configuración del proyecto
-### Establecer la ruta al Lumin SDK:
+# 1 Configuración del proyecto
+### Establecer la ruta al Lumin SDK
 1. Ir a Editar> Preferencias (Windows) o Unity> Preferencias (macOS). Se abre el cuadro de diálogo Preferencias.
 
 ![](README/Tutorial1.png)
@@ -24,7 +26,7 @@ Para mayor información acceder al siguiente enlace:
 
 https://developer.magicleap.com/en-us/learn/guides/manual-unity-project-setup-0-24-1
 
-# 2 descripción de los programas y la aplicación
+# 2 Descripción de los programas y la aplicación
 
 ### DeviceCamera
 
