@@ -22,3 +22,12 @@ Se conecta con la aplicación DeviceCamera.
 ## Comunicación entre los programas y la aplicación:
 
 Los programas y la aplicación se comunicarán a través del protocolo TCP que requerirá que se definan las IPs y los puertos a utilizar.
+
+
+❮img src="README/Images1.png" ❯
+Then you can add width and height attributes
+❮img src="README/MagicLeapAR1.png" width="100" ❯
+
+❮img src="README/DeviceCamera1.png" width="100" ❯
+
+❮img src="README/DeviceCamera2.png" width="100" ❯
