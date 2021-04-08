@@ -3,8 +3,13 @@
 # Índice
 - [Configuración del proyecto](#configuración-del-proyecto)
 - [Descripción de los programas y la aplicación](#descripción-de-los-programas-y-la-aplicación)
+  - [DeviceCamera](#devicecamera)
+  - [MagicLeap](#magic-leap-ar)
+  - [Images](#images)
 - [Comunicación entre los programas y la aplicación](#comunicación-entre-los-programas-y-la-aplicación)
-
+  - [DeviceCamera](#devicecamera-1)
+  - [MagicLeap](#magic-leap-ar-1)
+  - [Images](#images-1)
 # Configuración del proyecto
 ### Establecer la ruta al Lumin SDK
 1. Ir a Editar> Preferencias (Windows) o Unity> Preferencias (macOS). Se abre el cuadro de diálogo Preferencias.
