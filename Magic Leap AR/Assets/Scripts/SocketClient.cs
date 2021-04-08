@@ -34,8 +34,7 @@ public class SocketClient : MonoBehaviour
     private int xPos;
     List<Vector3> list = new List<Vector3>();
     private int count;
-    public Material m;
-    public Vector3 position2;
+    public Material mat;
     public Vector3[] positions = new Vector3[100];
     private GameObject[] spheres = new GameObject[100];
     private GameObject s;
@@ -114,7 +113,7 @@ public class SocketClient : MonoBehaviour
             spheres[i] = GameObject.CreatePrimitive(PrimitiveType.Sphere);
             spheres[i].transform.position = positions[i];
             spheres[i].transform.localScale = new Vector3(0.02f, 0.02f, 0.02f);
-            spheres[i].GetComponent<Renderer>().material = m;
+            spheres[i].GetComponent<Renderer>().material = mat;
         }
     }
 
@@ -164,13 +163,7 @@ public class SocketClient : MonoBehaviour
 
             if (m_ReceivedMessage == "1")
             {
-                print("Esfera");
-                /*
-                list.Add(GameObject.FindGameObjectWithTag("Marcador2").transform.position);
-                s = GameObject.CreatePrimitive(PrimitiveType.Sphere);
-                s.transform.position = list[list.Count - 1];
-                s.transform.localScale = new Vector3(0.02f, 0.02f, 0.02f);
-                s.GetComponent<Renderer>().material = m;*/
+                print("Rastro desplegado");
             }
         }
     }
@@ -219,7 +212,7 @@ public class SocketClient : MonoBehaviour
             s = GameObject.CreatePrimitive(PrimitiveType.Sphere);
             s.transform.position = list[list.Count - 1];
             s.transform.localScale = new Vector3(0.02f, 0.02f, 0.02f);
-            s.GetComponent<Renderer>().material = m;
+            s.GetComponent<Renderer>().material = mat;
         }
     }
 }

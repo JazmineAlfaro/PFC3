@@ -34,10 +34,6 @@ public class SocketClient2 : MonoBehaviour
     private int xPos;
     List<Vector3> list = new List<Vector3>();
     private int counter;
-    public Material m;
-    public Vector3 position2;
-    public Vector3[] positions = new Vector3[100];
-    private GameObject[] spheres = new GameObject[100];
     private GameObject s;
 
     //Start client and stablish connection with server
