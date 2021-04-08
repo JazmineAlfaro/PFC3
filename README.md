@@ -1,12 +1,9 @@
 # PFC3
 
 # Índice
-- [Configuración del proyecto](#1-configuración-del-proyecto)
-  - [Establecer la ruta al Lumin SDK](###establecer-la-ruta-al-lumin-sdk)
-  
-- [Descripción de los programas y la aplicación](#2-descripción-de-los-programas-y-la-aplicación)
-  - [DeviceCamera](###-devicecamera)
-- [Comunicación entre los programas y la aplicación](#3-comunicación-entre-los-programas-y-la-aplicación)
+- [Configuración del proyecto](#configuración-del-proyecto)
+- [Descripción de los programas y la aplicación](#descripción-de-los-programas-y-la-aplicación)
+- [Comunicación entre los programas y la aplicación](#comunicación-entre-los-programas-y-la-aplicación)
 
 # Configuración del proyecto
 ### Establecer la ruta al Lumin SDK
