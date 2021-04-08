@@ -2,9 +2,9 @@
 
 # Índice
 
-- [1. Configuración del proyecto]
-- [2. Descripción de los programas y la aplicación]
-- [3. Comunicación entre los programas y la aplicación]
+- [1. Configuración del proyecto](#-1.-configuración-del-proyecto:)
+- [2. Descripción de los programas y la aplicación](#-2.-descripción-de-los programas-y-la-aplicación:)
+- [3. Comunicación entre los programas y la aplicación](#3.-comunicación-entre-los-programas-y-la-aplicación:)
 
 # 1. Configuración del proyecto:
 
@@ -73,5 +73,3 @@ GameObject Socket Client Images: Este se comunica con el programa DeviceCamera, 
 
 ![](README/Images1.png)
 
-
-# Hola
