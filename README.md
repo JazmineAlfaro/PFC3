@@ -28,6 +28,9 @@ Para mayor información acceder al siguiente enlace:
 
 https://developer.magicleap.com/en-us/learn/guides/manual-unity-project-setup-0-24-1
 
+Un programa de ejemplo:
+https://developer.magicleap.com/en-us/learn/guides/get-started-developing-in-unity
+
 # Descripción de los programas y la aplicación
 
 ### DeviceCamera
